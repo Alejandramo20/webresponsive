@@ -1,0 +1,25 @@
+.caja{
+	align-items:center;
+	border: solid;
+	box-shadow: 0 0 0.5em blue;
+	display:flex;
+	height: 400px;
+	justify-content:space-around;
+}
+.caja div{
+	height:250px;
+	width:25%;
+}
+.cajitas1{
+	background: purple;
+}
+.cajitas2{
+	align-self: flex-end;
+	background: lightpink;	
+}
+.cajitas3{
+	background: lightgreen;
+}
+.cajitas3 img{
+	max-width:100%;
+}
